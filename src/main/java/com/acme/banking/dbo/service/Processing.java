@@ -15,8 +15,8 @@ public class Processing {
         return null; //TODO
     }
 
-    public void transfer(int fromAccountId, int toAccountId, double amount) {
-        //TODO
+    public boolean transfer(int fromAccountId, int toAccountId, double amount) {
+        return false; //TODO
     }
 
     public void cash(double amount, int fromAccountId) {
